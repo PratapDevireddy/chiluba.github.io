@@ -1,0 +1,139 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to bottom, #5281A4, #E3EBF2, #5281A4) fixed no-repeat;
+}
+
+.navbar {
+    background: rgba(210, 210, 217, 0.50);
+    border: 0px solid #ffffff;
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand {
+    color: #F6EF50;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-brand:hover {
+    color: #EC6350;
+}
+
+.home {
+    display: none;
+}
+
+.home > div {
+    margin-top: 85px;
+}
+
+.book {
+
+}
+
+.highlights ul {
+    list-style: none;
+    display: table;
+    width: 100%;
+    padding: 0px;
+    margin-top: 30px;
+}
+
+.highlights ul.list li {
+    overflow: hidden;
+    display: table;
+    background: #fff;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 4px;
+    border-left: 10px solid #000;
+    transition: all 300ms ease-in-out;
+}
+
+.bg-style > h1, .bg-style > div, .bg-style > h3, .bg-style > h4 {
+    padding: 15px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    border-left: 10px solid rgba(231, 1, 15, 0.60);
+    margin-bottom: 4px;
+}
+
+h1, h2, h3, h4, h5 {
+    text-transform: uppercase;
+}
+
+.bg-style > .col-xs-4 {
+    border: 0px;
+    box-shadow: 0px 0px 0px;
+}
+
+.bg-style .thumbnail {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.bg-style-none {
+    border: 0px;
+}
+
+.bg-style-top {
+    background: #ffffff;
+}
+
+.bg-style-top > h2 {
+    padding: 4px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    background: rgba(231, 1, 15, 0.60);
+    color: rgba(255, 255, 255, 1);
+}
+
+.bg-style-top > p {
+    background: #ffffff;
+    padding: 10px;
+}
+
+.highlights ul.list li span {
+    display: table-cell;
+    height: 100px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.highlights ul.list li span.number {
+    font-size: 20px;
+    width: 100px;
+    background: rgba(231, 1, 15, 0.60);
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.highlights ul.list li span.text {
+    width: 300px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-size: larger;
+}
+
+.circle {
+    display: table;
+    width: 125px;
+    height: 125px;
+    border: 10px solid #f6f6f6;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 125px;
+    transition: all 400ms linear;
+    margin-bottom: 4px;
+}
+
+.circle .content {
+    display: table-cell;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.circle .content > .number {
+    font-size: 58px;
+    display: block;
+    clear: both;
+    line-height: 1;
+}
