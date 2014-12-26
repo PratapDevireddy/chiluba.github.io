@@ -27,4 +27,10 @@ $(document).ready(function () {
         $(".book, .home, .author, .contact").css('display', 'none');
         $(targetClass).css('display', 'block');
     });
+
+    $(".highlights ul.list li").click(function() {
+        $(window.location).attr({href: '#book'});
+        $(".book, .home, .author, .contact").css('display', 'none');
+        $(".book").css('display', 'block');
+    });
 });
