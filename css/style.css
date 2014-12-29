@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5 {
 
 /* Awesome cssmenu styles */
 #cssmenu {
-    background: #f96e5b;
+    background: rgba(231, 1, 15, 0.60);
     width: auto;
 }
 #cssmenu ul {
@@ -289,3 +289,6 @@ h1, h2, h3, h4, h5 {
         display: none;
     }
 }
+
+
+/* IE Fixes */

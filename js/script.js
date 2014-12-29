@@ -18,6 +18,19 @@ $(document).ready(function () {
     $(".book, .home, .author, .contact").css('display', 'none');
     $("." + targetClass).css('display', 'block');
 
+    if(targetClass == "home") {
+        $("#cssmenu ul.menu li").removeClass("active");
+        $("#cssmenu ul.menu li:nth-child(1)").addClass("active");
+    } else if(targetClass == "book"){
+        $("#cssmenu ul.menu li").removeClass("active");
+        $("#cssmenu ul.menu li:nth-child(2)").addClass("active");
+    } else if(targetClass == "author"){
+        $("#cssmenu ul.menu li").removeClass("active");
+        $("#cssmenu ul.menu li:nth-child(3)").addClass("active");
+    } else if(targetClass == "contact"){
+        $("#cssmenu ul.menu li").removeClass("active");
+        $("#cssmenu ul.menu li:nth-child(4)").addClass("active");
+    }
 
     $(navbarSelector).click(function () {
         location = $(this).data("location");
@@ -32,5 +45,10 @@ $(document).ready(function () {
         $(window.location).attr({href: '#book'});
         $(".book, .home, .author, .contact").css('display', 'none');
         $(".book").css('display', 'block');
+    });
+
+    $("#cssmenu ul.menu li").click(function() {
+        $("#cssmenu ul.menu li").removeClass("active");
+        $(this).addClass("active");
     });
 });
